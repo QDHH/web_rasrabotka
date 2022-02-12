@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+main{
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+    background-color: lightyellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 0 10px 1px rgb(255, 0, 0);
+}
+body{
+    background-color: darkgray;
+    font-family: 'Comforter', cursive;
+}
+.photo{
+    width: calc(50% - 40px);
+    height: calc((35vw - 40px) / 16 * 9  );
+    margin: 20px;
+    background-color: goldenrod;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.10s ease;
+    box-shadow: 0 0 10px 1px rgb(50, 153, 213);
+}
+.photo:hover{
+    transform: rotate(3deg) scale(1.07);
+    box-shadow: 0 0 40px 1px rgb(50, 153, 213);
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 48px; 
+}
+.photo1{
+    background-image: url(../img/alien.jpg);
+}
+.photo2{
+    background-image: url(../img/bird-skul.jpg);
+}
+.photo3{
+    background-image: url(../img/robot-HELLO.png);
+}
+.photo4{
+    background-image: url(../img/robot-RUN.png);
+}
+.photo5{
+    background-image: url(../img/robot-GOLD.png);
+}
+.photo6{
+    background-image: url(../img/doodle.jpg);
+}
+.photo7{
+    background-image: url(../img/cute.png);
+}
+.photo8{
+    background-image: url(../img/fantasy.jpg);
+}
+.photo9{
+    background-image: url(../img/crow.jpg);
+}
+.photo10{
+    background-image: url(../img/robot-T.png);
+}
+.photo11{
+    background-image: url(../img/robots.png);
+}
+.photo12{
+    background-image: url(../img/man.png);
+}
